@@ -1,0 +1,20 @@
+diff a/doodle/Floor.cpp b/doodle/Floor.cpp	(rejected hunks)
+@@ -0,0 +1,17 @@
++#include "Floor.h"
++#include "doodle/doodle.hpp"
++#include <iostream>
++
++using namespace doodle;
++
++void Floor::Update() {
++	
++}
++
++void Floor::Draw() {
++	push_settings();
++	set_outline_color(0, 0, 255);
++	set_fill_color(0, 0, 255, 50);
++	draw_rectangle(floor_posX, floor_posY, floor_width, floor_height);
++	pop_settings();
++}
+\ No newline at end of file

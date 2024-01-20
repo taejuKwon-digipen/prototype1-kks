@@ -1,0 +1,34 @@
+diff a/doodle/Boss.cpp b/doodle/Boss.cpp	(rejected hunks)
+@@ -3,13 +3,29 @@
+ 
+ using namespace doodle;
+ 
++void Boss::Update()
++{
++	//if(i<10)
++	//{
++	//make undyingpattern();
++    //}
++	//execute pattern2();
++	
++	//execute pattern3();
++	
++
++
++	//void execute pattern1()
++	//
++
++	//
++}
++
++
+ void Boss::Draw()
+ {
+ 	draw_rectangle(Boss_posX, Boss_posY, Boss_w, Boss_h);
+ }
+ 
+-void Boss::Update() 
+-{
+ 
+-}
+ 

@@ -1,0 +1,14 @@
+diff a/doodle/Boss.h b/doodle/Boss.h	(rejected hunks)
+@@ -26,8 +26,10 @@
+ 	double eye_height{ 40 };
+ 	double BossRight_eye_posx{ 850 };
+ 	int Pattern_Checker = 0;
+-
+-	double Pattenr2_lifetime = 200;
++	bool Is_Pattern1_activate = false;
++	bool Is_Pattern2_activate = false;
++	bool Is_Pattern3_activate = false;
++	double Pattenr1_lifetime = 200;
+ 
+ 
+ 

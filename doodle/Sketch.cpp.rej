@@ -1,0 +1,15 @@
+diff a/doodle/Sketch.cpp b/doodle/Sketch.cpp	(rejected hunks)
+@@ -7,10 +7,12 @@
+ #include <doodle/window.hpp>
+ #include"Player.h"
+ #include"Boss.h"
++#include"Floor.h"
+ 
+ using namespace doodle;
+-Player player1{ 400.0,400.0 };
++Player player1{ 400.0, 400.0 };
+ Boss boss;
++Floor Floor1;
+ [[noreturn]] void error(const std::string& s) { throw std::runtime_error(s); }
+ 
+ 
